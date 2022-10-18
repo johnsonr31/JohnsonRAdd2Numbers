@@ -10,7 +10,7 @@ bool playAgain = true;
     bool isNumber2;
     int num1 = 0;
     int num2 = 0;
-
+Console.Clear();
 // This while loop will continue looping as long as playAgain is true
 while(playAgain == true)
 {
@@ -46,16 +46,20 @@ while(playAgain == true)
                     // int num2 = Convert.ToInt32(secondNum);
                         if (isNumber2 == true)
                         {
+                            // The user input will be added together and saved as an int called "sum"
                             int sum = (num1 + num2);
                             Console.WriteLine(" ");
                             Console.WriteLine("Calculating...");
                             Console.WriteLine(" ");
+                            // The sum will be printed to the console
                             Console.WriteLine($"Your sum is {sum}.");
                             Console.WriteLine(" ");
                         }
                         else
                         {
+                            // This will run if the input isn't a valid number
                             Console.WriteLine($"Invalid Input: {secondNum} isn't a number");
+                            Console.WriteLine("Restarting...");
                             Console.WriteLine(" ");
                         }
 
@@ -64,8 +68,9 @@ while(playAgain == true)
                 else
                 {
                     // This will run if it isn't a valid number
-                    Console.WriteLine("Invalid Entry");
-                    Console.Write("Please enter a valid number");
+                    Console.WriteLine($"Invalid Input: {firstNum} isn't a number");
+                    Console.WriteLine("Restarting...");
+                    Console.WriteLine(" ");
                 }
 
 
@@ -73,6 +78,7 @@ while(playAgain == true)
         }
         else
         {
+            // This will print to the console if the user inputs anything aside from YES or NO
             Console.WriteLine("Invalid Entry");
             Console.WriteLine("Restarting...");
         }
