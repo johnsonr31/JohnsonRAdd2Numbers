@@ -29,26 +29,37 @@ while(playAgain == true)
         {
             Console.WriteLine("Alright! Let's begin!");
             Console.WriteLine(" ");
-            Console.Write("Please type your first number: ");
+            Console.Write("Please enter your first number: ");
             string firstNum = Console.ReadLine();
             //This should confirm if the user's input is a number or not
-            isNumber = Int32.TryParse(firstNum, out Num1);
+            isNumber = Int32.TryParse(firstNum, out num1);
+            // int num1 = Convert.ToInt32(firstNum);
+
 
                 if (isNumber == true)
                 {
                     // This will run if the first number is a valid number
                     Console.WriteLine(" ");
-                    Console.Write("Now enter your second number:");
+                    Console.Write("Now enter your second number: ");
                     string secondNum = Console.ReadLine();
-                    isNumber2 = Int32.TryParse(secondNum, out Num2);
+                    isNumber2 = Int32.TryParse(secondNum, out num2);
                     // int num2 = Convert.ToInt32(secondNum);
+                        if (isNumber2 == true)
+                        {
+                            int sum = (num1 + num2);
+                            Console.WriteLine(" ");
+                            Console.WriteLine("Calculating...");
+                            Console.WriteLine(" ");
+                            Console.WriteLine($"Your sum is {sum}.");
+                            Console.WriteLine(" ");
+                        }
+                        else
+                        {
+                            Console.WriteLine($"Invalid Input: {secondNum} isn't a number");
+                            Console.WriteLine(" ");
+                        }
 
-                    int sum = (num1 + num2);
-                    Console.WriteLine(" ");
-                    Console.WriteLine("Calculating...");
-                    Console.WriteLine(" ");
-                    Console.WriteLine($"Your sum is {sum}.");
-                    Console.WriteLine(" ");
+                        
                 }
                 else
                 {
@@ -57,7 +68,6 @@ while(playAgain == true)
                     Console.Write("Please enter a valid number");
                 }
 
-            // int num1 = Convert.ToInt32(firstNum);
 
             
         }
