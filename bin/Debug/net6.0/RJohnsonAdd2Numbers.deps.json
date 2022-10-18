@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "RJohnsonAdd2Numbers/1.0.0": {
+        "runtime": {
+          "RJohnsonAdd2Numbers.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RJohnsonAdd2Numbers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

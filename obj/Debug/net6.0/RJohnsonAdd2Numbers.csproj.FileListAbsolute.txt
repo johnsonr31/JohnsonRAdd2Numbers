@@ -1,0 +1,15 @@
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAdd2Numbers\bin\Debug\net6.0\RJohnsonAdd2Numbers.exe
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAdd2Numbers\bin\Debug\net6.0\RJohnsonAdd2Numbers.deps.json
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAdd2Numbers\bin\Debug\net6.0\RJohnsonAdd2Numbers.runtimeconfig.json
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAdd2Numbers\bin\Debug\net6.0\RJohnsonAdd2Numbers.dll
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAdd2Numbers\bin\Debug\net6.0\RJohnsonAdd2Numbers.pdb
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAdd2Numbers\obj\Debug\net6.0\RJohnsonAdd2Numbers.csproj.AssemblyReference.cache
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAdd2Numbers\obj\Debug\net6.0\RJohnsonAdd2Numbers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAdd2Numbers\obj\Debug\net6.0\RJohnsonAdd2Numbers.AssemblyInfoInputs.cache
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAdd2Numbers\obj\Debug\net6.0\RJohnsonAdd2Numbers.AssemblyInfo.cs
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAdd2Numbers\obj\Debug\net6.0\RJohnsonAdd2Numbers.csproj.CoreCompileInputs.cache
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAdd2Numbers\obj\Debug\net6.0\RJohnsonAdd2Numbers.dll
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAdd2Numbers\obj\Debug\net6.0\refint\RJohnsonAdd2Numbers.dll
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAdd2Numbers\obj\Debug\net6.0\RJohnsonAdd2Numbers.pdb
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAdd2Numbers\obj\Debug\net6.0\RJohnsonAdd2Numbers.genruntimeconfig.cache
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAdd2Numbers\obj\Debug\net6.0\ref\RJohnsonAdd2Numbers.dll
