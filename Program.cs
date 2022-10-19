@@ -27,7 +27,7 @@ while(playAgain == true)
         if (yesNo == "NO" && isNumber != true)
         {
             // If the player inputs NO into the console, the program will exit the while loop
-            Console.WriteLine("Alright, goodbye.");
+            Console.WriteLine("Then goodbye.");
             playAgain = false;
         }
 
@@ -40,7 +40,7 @@ while(playAgain == true)
             while(addition == true)
             {
                 // After the second while loop begins, the player will be asked to enter their first number
-                Console.Write("Please enter your first number: ");
+                Console.Write("Please enter a whole number: ");
                 string firstNum = Console.ReadLine();
                 // This will convert the player's input to an int, and check if their input was a valid number
                 isNumber = Int32.TryParse(firstNum, out num1);
@@ -50,12 +50,12 @@ while(playAgain == true)
                     {
                         // If the first number is a valid number, the program will move on to asking for the player's second number
                         Console.WriteLine(" ");
-                        Console.Write("Now enter your second number: ");
+                        Console.Write("Now enter your second whole number: ");
                         string secondNum = Console.ReadLine();
                         isNumber2 = Int32.TryParse(secondNum, out num2);
                             if (isNumber2 == true)
                             {
-                                // The user input will be added together and saved as an int called "sum"
+                                // The two numbers from the user's input will be added together
                                 int sum = (num1 + num2);
                                 Console.WriteLine(" ");
                                 Console.WriteLine("Calculating...");
