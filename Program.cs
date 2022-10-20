@@ -58,7 +58,6 @@ while(playAgain == true)
                             {
                                 // The two numbers from the user's input will be added together
                                 int sum = (num1 + num2);
-                                Console.WriteLine(" ");
                                 Console.WriteLine("Calculating...");
                                 Console.WriteLine(" ");
                                 // The sum will be printed to the console
