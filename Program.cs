@@ -92,7 +92,7 @@ while(playAgain == true)
         else
         {
             // If anything aside from YES or NO is typed into the console, the text below will be printed to it, and the loop will restart
-            Console.WriteLine("Invalid Entry");
+            Console.WriteLine("Invalid Input");
             Console.WriteLine("Restarting...");
             Console.WriteLine(" ");
         }
