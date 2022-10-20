@@ -41,7 +41,7 @@ while(playAgain == true)
             while(addition == true)
             {
                 // After the second while loop begins, the player will be asked to enter a number
-                Console.Write("Please enter a whole number: ");
+                Console.Write("Please enter a first whole number: ");
                 string firstNum = Console.ReadLine();
                 // This will convert the player's input to an int, and check if their input was a valid number
                 isNumber = Int32.TryParse(firstNum, out num1);
@@ -49,7 +49,7 @@ while(playAgain == true)
 
                     if (isNumber == true)
                     {
-                        // If the first number is a valid number, the program will ask the player for another number
+                        // If the first number is a valid whole number, the program will ask the player for another number
                         Console.WriteLine(" ");
                         Console.Write("Now enter your second whole number: ");
                         string secondNum = Console.ReadLine();
@@ -68,8 +68,8 @@ while(playAgain == true)
                             }
                             else
                             {
-                                // If the user's input isn't a valid number, the program will go back to the beginning of this loop
-                                Console.WriteLine($"Invalid Input: {secondNum} isn't a number");
+                                // If the user's input isn't a valid number or a whole number, the program will go back to the beginning of this loop
+                                Console.WriteLine($"Invalid Input: You must type a whole number.");
                                 Console.WriteLine("Restarting...");
                                 Console.WriteLine(" ");
                             }
@@ -78,8 +78,8 @@ while(playAgain == true)
                     }
                     else
                     {
-                        // If they player's input isn't a valid number, this loop will restart
-                        Console.WriteLine($"Invalid Input: {firstNum} isn't a number");
+                        // If they player's input isn't a valid number, or a whole number, this loop will restart
+                        Console.WriteLine($"Invalid Input: You must type a whole number.");
                         Console.WriteLine("Restarting...");
                         Console.WriteLine(" ");
                     }
