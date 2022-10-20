@@ -33,13 +33,14 @@ while(playAgain == true)
 
         else if(yesNo == "YES" && isNumber != true)
         {
-            // If the player inputs YES to the console, the program will print the text below to the console, then enter a second while loop within the main while loop
+            // If the player inputs YES to the console, the program will print the text below to the console, then enter a second while loop
             Console.WriteLine("Alright! Let's begin!");
+            addition = true;
 
             // This loop will run while the player is asked to input the numbers they want to add
             while(addition == true)
             {
-                // After the second while loop begins, the player will be asked to enter their first number
+                // After the second while loop begins, the player will be asked to enter a number
                 Console.Write("Please enter a whole number: ");
                 string firstNum = Console.ReadLine();
                 // This will convert the player's input to an int, and check if their input was a valid number
@@ -48,7 +49,7 @@ while(playAgain == true)
 
                     if (isNumber == true)
                     {
-                        // If the first number is a valid number, the program will move on to asking for the player's second number
+                        // If the first number is a valid number, the program will ask the player for another number
                         Console.WriteLine(" ");
                         Console.Write("Now enter your second whole number: ");
                         string secondNum = Console.ReadLine();
