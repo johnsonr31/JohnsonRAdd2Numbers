@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\rcj53\\.nuget\\packages\\": {}
+    "/Users/arelymartinez/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rcj53\\Documents\\CodeStack Assignments\\Lvl1\\Week 1\\RJohnsonAdd2Numbers\\RJohnsonAdd2Numbers.csproj",
+      "projectUniqueName": "/Users/arelymartinez/Desktop/GitRepository/RJohnsonAdd2Numbers/RJohnsonAdd2Numbers.csproj",
       "projectName": "RJohnsonAdd2Numbers",
-      "projectPath": "C:\\Users\\rcj53\\Documents\\CodeStack Assignments\\Lvl1\\Week 1\\RJohnsonAdd2Numbers\\RJohnsonAdd2Numbers.csproj",
-      "packagesPath": "C:\\Users\\rcj53\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rcj53\\Documents\\CodeStack Assignments\\Lvl1\\Week 1\\RJohnsonAdd2Numbers\\obj\\",
+      "projectPath": "/Users/arelymartinez/Desktop/GitRepository/RJohnsonAdd2Numbers/RJohnsonAdd2Numbers.csproj",
+      "packagesPath": "/Users/arelymartinez/.nuget/packages/",
+      "outputPath": "/Users/arelymartinez/Desktop/GitRepository/RJohnsonAdd2Numbers/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\rcj53\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/arelymartinez/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }
